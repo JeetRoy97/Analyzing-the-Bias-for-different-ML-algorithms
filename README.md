@@ -9,7 +9,7 @@ prediction across all the four race groups and all the 4 age groups.
 
 Evaluation Perform a 2-class classification and report the performance as follows:
 
-a) Testing performance across all the age groups and race categories.
+1. Testing performance across all the age groups and race categories.
 
 Results - The dataset is divided into train:valid:test split of 70:20:10 = 16595:4741:2369
 samples.
@@ -39,7 +39,7 @@ Figure 5: LCNN race-wise accuracy
 
 Figure 6: LCNN race-wise accuracy at focal loss
 
-b) ROC curve for SVM and LCNN for gender prediction tasks. (Draw ROC curve from scratch.)
+2. ROC curve for SVM and LCNN for gender prediction tasks. (Draw ROC curve from scratch.)
 
 Results - ROC curve for SVM and LCNN for gender prediction tasks.
 
@@ -59,7 +59,7 @@ Figure 9: LCNN ROC curve at focal loss
 
 
 
-c) Draw the Precision-Recall curve. (Draw Precision-Recall curve from scratch.)
+3. Draw the Precision-Recall curve. (Draw Precision-Recall curve from scratch.)
 
 Results - 
 
