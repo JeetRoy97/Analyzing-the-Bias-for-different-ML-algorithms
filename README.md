@@ -55,22 +55,21 @@ Figure 8: LCNN ROC curve at cross-entropy loss
 
 Figure 9: LCNN ROC curve at focal loss
 
-![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 010](https://user-images.githubusercontent.com/59523992/163758571-5d101353-4623-49e0-afeb-f7d7bd60f5c2.png)
+
 
 c) Draw the Precision-Recall curve. (Draw Precision-Recall curve from scratch.)
 
 Results - 
 
-![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 011](https://user-images.githubusercontent.com/59523992/163758595-ab54a843-dfba-4229-b89b-9ea52b65260a.png)
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 010](https://user-images.githubusercontent.com/59523992/163758571-5d101353-4623-49e0-afeb-f7d7bd60f5c2.png)
 
 Figure 10: SVM Precision curve
 
-![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 012](https://user-images.githubusercontent.com/59523992/163758706-c1371211-c414-400c-a77c-ca734fd86e64.png)
-
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 011](https://user-images.githubusercontent.com/59523992/163758595-ab54a843-dfba-4229-b89b-9ea52b65260a.png)
 
 Figure 11: LCNN Precision curve at cross-entropy loss
 
-![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 013](https://user-images.githubusercontent.com/59523992/163758718-563c17f6-9ef5-4169-b754-a7b9070a5bcd.png)
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 012](https://user-images.githubusercontent.com/59523992/163758706-c1371211-c414-400c-a77c-ca734fd86e64.png)
 
 
 Figure 12: LCNN Precision curve at focal loss
