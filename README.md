@@ -10,6 +10,7 @@ prediction across all the four race groups and all the 4 age groups.
 Evaluation Perform a 2-class classification and report the performance as follows:
 
 a) Testing performance across all the age groups and race categories.
+
 Results - The dataset is divided into train:valid:test split of 70:20:10 = 16595:4741:2369
 samples.
 Testing performance across all the age groups and race categories.
@@ -39,6 +40,7 @@ Figure 5: LCNN race-wise accuracy
 Figure 6: LCNN race-wise accuracy at focal loss
 
 b) ROC curve for SVM and LCNN for gender prediction tasks. (Draw ROC curve from scratch.)
+
 Results - ROC curve for SVM and LCNN for gender prediction tasks.
 
 ![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 007](https://user-images.githubusercontent.com/59523992/163758485-bd033a2e-6eee-42cb-90d8-d82221b82b35.png)
@@ -77,19 +79,37 @@ Figure 12: LCNN Precision curve at focal loss
 4. Of the two curves stated above, which is more reliable for biased/imbalanced
 data? Why? Draw inferences from the observed results on why one ap-
 proach (SVM or LCNN) performs worse/better than the other.
+
 (a) ROC Curves summarize the trade-off between the true positive rate
 and false positive rate for a predictive model using different proba-
 bility thresholds.
+
 (b) Precision-Recall curves summarize the trade-off between the true pos-
 itive rate and the positive predictive value for a predictive model
 using different probability thresholds.
+
 (c) ROC curves are appropriate when the observations are balanced be-
 tween each class, whereas precision-recall curves are appropriate for
 imbalanced datasets.
-4. Draw the Precision-Recall curve. (Draw Precision-Recall curve from scratch.)
-5. Of the two curves stated above, which is more reliable for biased/imbalanced data? Why? Draw
-inferences from the observed results on why one approach (SVM or LCNN) performs worse/better than
-the other.
-5. Do You observe any bias in the data ? Analyze the results.
-6. Change the loss function to focal loss for LCNN. Now compare the results with previous loss function
-that you have used ?
+
+If we look at ROC and precision-recall curves, we can infer that the SVM
+performs better than Neural Networks. But if we look at accuracy, Neural
+Network tends to beat SVM. Here as the dataset is highly imbalanced,
+precision- recall curve is better appraoch than ROC curve. Comparing
+the precision-recall curve and ROC curve of both the approaches, SVM
+does a better job at handling the imbalances. SVM has low standard
+deviation and is comparatively stable. Neural Network most probably
+overfits the data. Neural Network is highly unstable and is less precise. It
+is accurate at times but fluctuates a lot.
+
+5. Do You observe any bias in the data ?
+
+Yes, the data is biased towards one ethnicity as shown in Figure 13. We
+can observe that group 0 has comparatively large no. of samples than the
+other groups. Here, group 0 represents White.
+
+![Aspose Words 50618ed9-b1b2-4630-9df0-4f841fa4401b 013](https://user-images.githubusercontent.com/59523992/163759088-12c67565-a29c-4142-9711-1d71023f6616.png)
+
+
+Figure 13: Bias on ethnicity
+
